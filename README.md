@@ -280,7 +280,17 @@ Significance:
 Understanding who are the biggest corporate sponsors for a team is essential for the football teams’s financial planning process. It helps the management understand their revenue streams from sponsorships and make better informed financial decisions such as budget allocation for different parts of the team from marketing to facility upkeep fees. Additionally, understanding the deal start dates enables the the team to plan for sponsorship contract renegotiations and extensions with them well in advance. It ensures that sponsorships remain a stable source of income. Taking a look at this data can also help prioritize which corporate sponsors to focus in on when corporate sponsorship contracts are up for renewal and ensuring that throughout the term, they are prioritized with their ads. 
 
 Query: 
-![Screen Shot 2023-11-03 at 3 47 19 PM](https://github.com/mathewsfluker/MIST4610Project1/assets/149734955/7fb9ca92-f601-4c43-a6fb-5802ffcec5d8)
+
+CREATE PROCEDURE LargestSponsorshipDeals()
+SELECT company, startDate, Sponsorships.adPrice AS LargestDealAmount
+FROM Sponsors
+JOIN Sponsorships ON Sponsors.sponsorID = Sponsorships_sponsorID
+WHERE Sponsorships.adPrice = (SELECT MAX(adPrice) FROM Sponsorships)
+ORDER BY company ASC;
+
+CALL LargestSponsorshipDeals();
+
+
 
 Results:
 ![Screen Shot 2023-11-03 at 3 48 03 PM](https://github.com/mathewsfluker/MIST4610Project1/assets/149734955/98b5f84f-33d3-481f-8192-7417c5f737d4)
