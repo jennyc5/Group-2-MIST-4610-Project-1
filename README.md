@@ -7,10 +7,12 @@
 ## Team Name:
 39217 Group 2
 
-## Team Members:
-Mathews Fluker @mathewsfluker
 
+
+## Team Members:
 Jenny Chen @jennyc5
+
+Mathews Fluker @mathewsfluker
 
 Justin Goldman @justingoldman25
 
@@ -19,8 +21,14 @@ Connor Hawkins @conehawk
 Nixxon Idaewor @NnixxonUGA
 
 Aude-ellen Nangle @audeellen
+
+
+
 ## Problem Description:
 We have been tasked to  build a relational database for our client the "Atlanta Thunder Hawks". The client is powered through the use of Chat GPT to construct the answers to any questions we may have about the database. The database  must accurately reflect the organization's needs and host information about the sports club,  its activities, requirements, and expectations.
+
+
+
 ## Conversation with ChatGPT:
 We asked: 
 
@@ -114,6 +122,13 @@ Each Game also has many Game statistics, such as pass yards, rush yards and touc
 
 
 
+
+
+
+
+
+
+
 ## Queries:
 
 ![Screen Shot 2023-11-03 at 4 11 58 PM](https://github.com/mathewsfluker/MIST4610Project1/assets/149734955/a6500d73-58d0-4639-bc72-f709eb0c8128)
@@ -134,6 +149,9 @@ GROUP BY `Player Name`, `Players Salary`, touchdowns;
 Result:
 ![Screen Shot 2023-11-03 at 3 34 53 PM](https://github.com/mathewsfluker/MIST4610Project1/assets/149734955/d100a36c-6dbf-4c50-bda9-6327978aab9a)
 
+
+
+
 Query 2: LowEarningPlayers()
 
 Instruction: Write a query to list out the names, and salaries of the players who make below the AVERAGE salary of their team
@@ -147,6 +165,8 @@ Significance: The team wants to see who on the team is being paid below average 
 
 Result:
 ![Screen Shot 2023-11-03 at 3 37 01 PM](https://github.com/mathewsfluker/MIST4610Project1/assets/149734955/886c6c06-83cf-4fc8-860c-97699dcfecec)
+
+
 
 
 Query 3: EuroLargeStadiums()
@@ -163,6 +183,9 @@ ORDER BY capacity;
 
 Results:
 ![Screen Shot 2023-11-03 at 3 28 21 PM](https://github.com/mathewsfluker/MIST4610Project1/assets/149734955/525357a2-14e1-4373-bda2-e24b4a624226)
+
+
+
 
 Query 4: CoachesLongTraining()
 
@@ -182,6 +205,8 @@ ORDER BY `Average Training Session Duration (minutes)`ASC;
 
 Results:
 ![Screen Shot 2023-11-03 at 3 30 45 PM](https://github.com/mathewsfluker/MIST4610Project1/assets/149734955/e26987f8-c25a-497d-91f5-5080d6589444)
+
+
 
 
 Query 5: StrengthandConditioning()
@@ -235,6 +260,8 @@ Result:
 ![Screen Shot 2023-11-03 at 3 43 35 PM](https://github.com/mathewsfluker/MIST4610Project1/assets/149734955/e1feb32c-30ee-438f-ac26-f27f49afd49a)
 
 
+
+
 Query 7: LargestSponsorshipDeals()
 
 Instruction:
@@ -248,6 +275,9 @@ Query:
 
 Results:
 ![Screen Shot 2023-11-03 at 3 48 03 PM](https://github.com/mathewsfluker/MIST4610Project1/assets/149734955/98b5f84f-33d3-481f-8192-7417c5f737d4)
+
+
+
 
 Query 8: WeatherImpactOnPerformance()
 
@@ -268,6 +298,7 @@ Result: ![Screen Shot 2023-11-03 at 4 01 54 PM](https://github.com/mathewsfluker
 
 
 
+
 Query 9: FindLowestFacilityAttendanceRate()
 
 Instruction: What is the attendance rate, as a percentage, for each facility where games have been held, and how do these facilities compare in terms of attendance rate, from the lowest to the highest? Also include the facility’s maximum capacity value, ID number, and location.
@@ -281,7 +312,6 @@ Query:
 
 
 Result:![Screen Shot 2023-11-03 at 5 55 24 PM](https://github.com/mathewsfluker/MIST4610Project1/assets/149734955/a709656b-0741-40d2-a209-dd9e6099edb9)
-
 
 
 
