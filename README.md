@@ -152,16 +152,25 @@ Result:
 
 
 
+
+
 Query 2: LowEarningPlayers()
+
+
 
 Instruction: Write a query to list out the names, and salaries of the players who make below the AVERAGE salary of their team
 
-Query: SELECT CONCAT(Players.fName, " ", Players.lName) AS 'Player Name' , Players.salary AS 'Players Salary'
+Query: 
+CREATE PROCEDURE LowEarningPlayers()
+SELECT CONCAT(Players.fName, " ", Players.lName) AS 'Player Name' , Players.salary AS 'Players Salary'
 FROM Players
 WHERE salary < (SELECT AVG (salary) FROM Players)
 ORDER BY `Players Salary` DESC;
 
+CALL LowEarningPlayers;
+
 Significance: The team wants to see who on the team is being paid below average to assess pay raises and potential cuts. If a player is paid below average, they could also be used to trade with another team to free up cap space.
+
 
 Result:
 ![Screen Shot 2023-11-03 at 3 37 01 PM](https://github.com/mathewsfluker/MIST4610Project1/assets/149734955/886c6c06-83cf-4fc8-860c-97699dcfecec)
