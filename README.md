@@ -10,17 +10,17 @@
 
 
 ## Team Members:
-Jenny Chen [@jennyc5] (https://github.com/jennyc5)
+Jenny Chen [@jennyc5](https://github.com/jennyc5)
 
-Mathews Fluker [@mathewsfluker] (https://github.com/mathewsfluker)
+Mathews Fluker [@mathewsfluker](https://github.com/mathewsfluker)
 
-Justin Goldman [@justingoldman25] (https://github.com/justingoldman25)
+Justin Goldman [@justingoldman25](https://github.com/justingoldman25)
 
-Connor Hawkins [@conehawk] (https://github.com/conehawk)
+Connor Hawkins [@conehawk](https://github.com/conehawk)
 
-Nixxon Idaewor [@NnixxonUGA] (https://github.com/NnixxonUGA)
+Nixxon Idaewor [@NnixxonUGA](https://github.com/NnixxonUGA)
 
-Aude-ellen Nangle [@audeellen] (https://github.com/audeellen)
+Aude-ellen Nangle [@audeellen](https://github.com/audeellen)
 
 
 
