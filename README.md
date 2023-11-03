@@ -10,17 +10,17 @@
 
 
 ## Team Members:
-Jenny Chen [@jennyc5](https://github.com/jennyc5)
+1. Jenny Chen [@jennyc5](https://github.com/jennyc5)
 
-Mathews Fluker [@mathewsfluker](https://github.com/mathewsfluker)
+2. Mathews Fluker [@mathewsfluker](https://github.com/mathewsfluker)
 
-Justin Goldman [@justingoldman25](https://github.com/justingoldman25)
+3. Justin Goldman [@justingoldman25](https://github.com/justingoldman25)
 
-Connor Hawkins [@conehawk](https://github.com/conehawk)
+4. Connor Hawkins [@conehawk](https://github.com/conehawk)
 
-Nixxon Idaewor [@NnixxonUGA](https://github.com/NnixxonUGA)
+5. Nixxon Idaewor [@NnixxonUGA](https://github.com/NnixxonUGA)
 
-Aude-ellen Nangle [@audeellen](https://github.com/audeellen)
+6. Aude-ellen Nangle [@audeellen](https://github.com/audeellen)
 
 
 
@@ -395,6 +395,9 @@ Result:
 
 
 Database information: 
+
+Name of the database: ns_F2339217Group2
+
 All of this data and information can be accessed in the ns_F2339217Group2 SQL database server.
 
 
