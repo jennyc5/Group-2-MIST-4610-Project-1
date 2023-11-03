@@ -158,7 +158,7 @@ Query 1: TopPlayers
 
 Instruction: List the names of players who make more than $900,000 per year and how many touchdowns they scored in total
 
-Significance: Query 1 lists the names of players who have a salary of more than $50,000. This is important to  Coaches because they may use this information as a way to motivate their players. They will be able to identify who their top earners, analyze their performance and motivate them to continue playing well in order for them to maintain that salary or earn more in the future. 
+Significance: Query 1 lists the names of players who have a salary of more than $900,000. This is important to  Coaches because they may use this information as a way to motivate their players. They will be able to identify who their top earners, analyze their performance and motivate them to continue playing well in order for them to maintain that salary or earn more in the future. 
 
 Query: 
 CREATE PROCEDURE TopPlayers()
